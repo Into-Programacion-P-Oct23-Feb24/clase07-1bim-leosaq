@@ -25,13 +25,15 @@ public class Ejemplo03 {
         int contador = 1;
         int suma = 0;
         int valor_ingresado;
-        
+        // Es un ciclo repetitivo que sirve para copilar 5 datos especificos 
+        // y con ellos acumularlos y sumarlos pidiendo por teclado el valor de 
+        // las cantidades que se requieren sumar 
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
             suma = suma + valor_ingresado;
             System.out.printf("Valor ingresado %d\n", valor_ingresado);
-            contador = contador + 1;
+            //contador = contador + 1;
         }
 
         System.out.printf("La suma final es %d\n", suma);
